@@ -6,7 +6,7 @@ from defs import table_counter
 from defs import visualising
 from defs import visualising2
 
-df = pd.read_excel('C:/Users/USER/Dropbox/cs.xlsx')
+df = pd.read_excel('cs.xlsx')
 df1, chosen_player = player_choice(df)
 df1, values, categories = table_counter(df1)
 
