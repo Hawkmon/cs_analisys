@@ -73,8 +73,8 @@ def visualising(values, categories, player):
     plt.show()
 
 def player_choice(df):
-    a = input('1. Выбрать временной промежуток\n2. Выбрать турнир\nВыберите опцию:')
-    if a == '1':
+    option = input('1. Выбрать временной промежуток\n2. Выбрать турнир\nВыберите опцию:')
+    if option == '1':
         time = pd.Series(['месяц','3 месяца','полгода','год','все время','произвольный промежуток'])
         print(time)
         chosen_time = int(input('Выберите временной промежуток: '))
